@@ -1,72 +1,88 @@
-![Prisma](https://i.imgur.com/h6UIYTu.png)
-
-<div align="center">
-  <h1>Prisma</h1>
-  <a href="https://www.npmjs.com/package/prisma"><img src="https://img.shields.io/npm/v/prisma.svg?style=flat" /></a>
-  <a href="https://github.com/prisma/prisma/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" /></a>
-  <a href="https://github.com/prisma/prisma/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue" /></a>
-  <a href="https://pris.ly/discord"><img alt="Discord" src="https://img.shields.io/discord/937751382725886062?label=Discord"></a>
-  <br />
-  <br />
-  <a href="https://www.prisma.io/docs/getting-started/quickstart">Quickstart</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.prisma.io/">Website</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.prisma.io/docs/">Docs</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/prisma/prisma-examples/">Examples</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.prisma.io/blog">Blog</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://pris.ly/discord">Discord</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://twitter.com/prisma">Twitter</a>
-  <br />
-  <hr />
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d1a5c7f27f076a8e582434e03d5a9faeb3058f5f6f69261eed38e5bc21b0c6bf/68747470733a2f2f692e696d6775722e636f6d2f683655495954752e706e67"><img src="https://camo.githubusercontent.com/d1a5c7f27f076a8e582434e03d5a9faeb3058f5f6f69261eed38e5bc21b0c6bf/68747470733a2f2f692e696d6775722e636f6d2f683655495954752e706e67" alt="棱镜" data-canonical-src="https://i.imgur.com/h6UIYTu.png" style="max-width: 100%;"></a></p>
+<div align="center" dir="auto">
+  <h1 tabindex="-1" dir="auto"><a id="user-content-prisma" class="anchor" aria-hidden="true" tabindex="-1" href="#prisma"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">棱镜</font></font></h1>
+  <a href="https://www.npmjs.com/package/prisma" rel="nofollow"><img src="https://camo.githubusercontent.com/5cdde486260fe79fafd106ef6a5b97a956a85a52cda6858b26682f61874f3cb8/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f707269736d612e7376673f7374796c653d666c6174" data-canonical-src="https://img.shields.io/npm/v/prisma.svg?style=flat" style="max-width: 100%;"></a>
+  <a href="https://github.com/prisma/prisma/blob/main/CONTRIBUTING.md"><img src="https://camo.githubusercontent.com/7f745fb7dd2a22f68fe03adcdb977963ada4c8265675e572c629b29b9b34af2b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" data-canonical-src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" style="max-width: 100%;"></a>
+  <a href="https://github.com/prisma/prisma/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/7ec79e71e1c469af067764a1e50dbe1453aa647e3025219cfe6e26f2517f06e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d626c7565" data-canonical-src="https://img.shields.io/badge/license-Apache%202-blue" style="max-width: 100%;"></a>
+  <a href="https://pris.ly/discord" rel="nofollow"><img alt="不和谐" src="https://camo.githubusercontent.com/1c76fae3f4ba62969a3891aaa6d7a38768a3731cce5eeea62161eff0b6e0a0e8/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3933373735313338323732353838363036323f6c6162656c3d446973636f7264" data-canonical-src="https://img.shields.io/discord/937751382725886062?label=Discord" style="max-width: 100%;"></a>
+  <br>
+  <br>
+  <a href="https://www.prisma.io/docs/getting-started/quickstart" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速入门</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp;</font></font></span>
+  <a href="https://www.prisma.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp;</font></font></span>
+  <a href="https://www.prisma.io/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp;</font></font></span>
+  <a href="https://github.com/prisma/prisma-examples/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp;</font></font></span>
+  <a href="https://www.prisma.io/blog" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp; </font></font></span>
+  <a href="https://pris.ly/discord" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord </font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;&nbsp;•&nbsp;&nbsp; </font></font></span>
+  <a href="https://twitter.com/prisma" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a>
+  <br>
+  <hr>
 </div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-what-is-prisma" class="anchor" aria-hidden="true" tabindex="-1" href="#what-is-prisma"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是棱镜？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一代 ORM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，由以下工具组成：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.prisma.io/docs/concepts/components/prisma-client" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Client</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：针对 Node.js 和 TypeScript 自动生成且类型安全的查询构建器</font></font></li>
+<li><a href="https://www.prisma.io/docs/concepts/components/prisma-migrate" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Migrate</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：声明式数据建模和迁移系统</font></font></li>
+<li><a href="https://github.com/prisma/studio"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Studio</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：用于查看和编辑数据库中数据的 GUI</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Client 可在任何</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js 或 TypeScript 后端应用程序（包括无服务器应用程序和微服务）中使用</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这可以是</font></font><a href="https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/rest" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">REST API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/graphql" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GraphQL API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、 gRPC API 或任何其他需要数据库的 API。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma ORM 还可以通过以下 Prisma 产品进一步扩展：</font></font></strong></p>
+<ul dir="auto">
+<li><a href="https://prisma.io/docs/data-platform/accelerate/what-is-accelerate?utm_source=github&amp;utm_medium=prisma-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Accelerate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：具有可扩展连接池的全局数据库缓存</font></font></li>
+<li><a href="https://www.prisma.io/docs/data-platform/pulse/what-is-pulse?utm_source=github&amp;utm_medium=prisma-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma Pulse</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：具有类型安全订阅的实时数据库事件</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用 Prisma 的最快方法是遵循</font></font><a href="https://pris.ly/quickstart" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速入门（5 分钟）</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该快速入门基于预配置的 SQLite 数据库。</font><font style="vertical-align: inherit;">您还可以按照以下指南之一开始使用自己的数据库（PostgreSQL 和 MySQL）：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases-typescript-postgresql" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 Prisma 添加到现有项目</font></font></a></li>
+<li><a href="https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从头开始使用 Prisma 建立一个新项目</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-prisma-works" class="anchor" aria-hidden="true" tabindex="-1" href="#how-prisma-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 的工作原理</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本节提供了 Prisma 的工作原理及其最重要的技术组件的高级概述。</font><font style="vertical-align: inherit;">有关更全面的介绍，请访问</font></font><a href="https://www.prisma.io/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-the-prisma-schema" class="anchor" aria-hidden="true" tabindex="-1" href="#the-prisma-schema"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 架构</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个使用 Prisma 工具包中的工具的项目都以</font></font><a href="https://www.prisma.io/docs/concepts/components/prisma-schema" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 架构文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始。</font><font style="vertical-align: inherit;">Prisma 架构允许开发人员以直观的数据建模语言</font><font style="vertical-align: inherit;">定义其</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序模型。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它还包含与数据库的连接并定义了一个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成器</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-prisma notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Data source</span>
+<span class="pl-s1"><span class="pl-k">datasource</span> <span class="pl-en">db</span> {</span>
+<span class="pl-s1">  <span class="pl-smi">provider</span> <span class="pl-k">=</span> <span class="pl-s">"</span><span class="pl-s">postgresql</span><span class="pl-s">"</span></span>
+<span class="pl-s1">  <span class="pl-smi">url</span>      <span class="pl-k">=</span> <span class="pl-s1"><span class="pl-c1">env</span>(<span class="pl-s">"</span><span class="pl-s">DATABASE_URL</span><span class="pl-s">"</span>)</span></span>
+<span class="pl-s1">}</span>
 
-## What is Prisma?
+<span class="pl-c">// Generator</span>
+<span class="pl-s1"><span class="pl-k">generator</span> <span class="pl-en">client</span> {</span>
+<span class="pl-s1">  <span class="pl-smi">provider</span> <span class="pl-k">=</span> <span class="pl-s">"</span><span class="pl-s">prisma-client-js</span><span class="pl-s">"</span></span>
+<span class="pl-s1">}</span>
 
-Prisma is a **next-generation ORM** that consists of these tools:
+<span class="pl-c">// Data model</span>
+<span class="pl-s1"><span class="pl-k">model</span> <span class="pl-en">Post</span> {</span>
+<span class="pl-s1">  <span class="pl-smi">id</span>        <span class="pl-c1">Int</span>     <span class="pl-s1"><span class="pl-en">@id</span></span> <span class="pl-s1"><span class="pl-en">@default</span>(<span class="pl-s1"><span class="pl-c1">autoincrement</span>()</span>)</span></span>
+<span class="pl-s1">  <span class="pl-smi">title</span>     <span class="pl-c1">String</span></span>
+<span class="pl-s1">  <span class="pl-smi">content</span>   <span class="pl-c1">String</span><span class="pl-k">?</span></span>
+<span class="pl-s1">  <span class="pl-smi">published</span> <span class="pl-c1">Boolean</span> <span class="pl-s1"><span class="pl-en">@default</span>(<span class="pl-c1">false</span>)</span></span>
+<span class="pl-s1">  <span class="pl-smi">author</span>    <span class="pl-c1">User</span><span class="pl-k">?</span>   <span class="pl-s1"><span class="pl-en">@relation</span>(<span class="pl-v">fields</span>:  <span class="pl-s1">[<span class="pl-c1">authorId</span>]</span>, <span class="pl-v">references</span>: <span class="pl-s1">[<span class="pl-c1">id</span>]</span>)</span></span>
+<span class="pl-s1">  <span class="pl-smi">authorId</span>  <span class="pl-c1">Int</span><span class="pl-k">?</span></span>
+<span class="pl-s1">}</span>
 
-- [**Prisma Client**](https://www.prisma.io/docs/concepts/components/prisma-client): Auto-generated and type-safe query builder for Node.js & TypeScript
-- [**Prisma Migrate**](https://www.prisma.io/docs/concepts/components/prisma-migrate): Declarative data modeling & migration system
-- [**Prisma Studio**](https://github.com/prisma/studio): GUI to view and edit data in your database
-
-Prisma Client can be used in _any_ Node.js or TypeScript backend application (including serverless applications and microservices). This can be a [REST API](https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/rest), a [GraphQL API](https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/graphql), a gRPC API, or anything else that needs a database.
-
-**The Prisma ORM can also further be extended with these Prisma products:**
-
-- [Prisma Accelerate](https://prisma.io/docs/data-platform/accelerate/what-is-accelerate?utm_source=github&utm_medium=prisma-readme): Global database cache with scalable connection pooling
-- [Prisma Pulse](https://www.prisma.io/docs/data-platform/pulse/what-is-pulse?utm_source=github&utm_medium=prisma-readme): Real-time database events with type-safe subscriptions
-
-## Getting started
-
-The fastest way to get started with Prisma is by following the [**Quickstart (5 min)**](https://pris.ly/quickstart).
-
-The Quickstart is based on a preconfigured SQLite database. You can also get started with your own database (PostgreSQL and MySQL) by following one of these guides:
-
-- [Add Prisma to an existing project](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases-typescript-postgresql)
-- [Set up a new project with Prisma from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql)
-
-## How Prisma works
-
-This section provides a high-level overview of how Prisma works and its most important technical components. For a more thorough introduction, visit the [Prisma documentation](https://www.prisma.io/docs/).
-
-### The Prisma schema
-
-Every project that uses a tool from the Prisma toolkit starts with a [Prisma schema file](https://www.prisma.io/docs/concepts/components/prisma-schema). The Prisma schema allows developers to define their _application models_ in an intuitive data modeling language. It also contains the connection to a database and defines a _generator_:
-
-```prisma
-// Data source
+<span class="pl-s1"><span class="pl-k">model</span> <span class="pl-en">User</span> {</span>
+<span class="pl-s1">  <span class="pl-smi">id</span>    <span class="pl-c1">Int</span>     <span class="pl-s1"><span class="pl-en">@id</span></span> <span class="pl-s1"><span class="pl-en">@default</span>(<span class="pl-s1"><span class="pl-c1">autoincrement</span>()</span>)</span></span>
+<span class="pl-s1">  <span class="pl-smi">email</span> <span class="pl-c1">String</span>  <span class="pl-s1"><span class="pl-en">@unique</span></span></span>
+<span class="pl-s1">  <span class="pl-smi">name</span>  <span class="pl-c1">String</span><span class="pl-k">?</span></span>
+<span class="pl-s1">  <span class="pl-smi">posts</span> <span class="pl-c1">Post</span><span class="pl-k">[]</span></span>
+<span class="pl-s1">}</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Data source
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = &quot;postgresql&quot;
+  url      = env(&quot;DATABASE_URL&quot;)
 }
 
 // Generator
 generator client {
-  provider = "prisma-client-js"
+  provider = &quot;prisma-client-js&quot;
 }
 
 // Data model
@@ -84,116 +100,164 @@ model User {
   email String  @unique
   name  String?
   posts Post[]
-}
-```
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此架构中，您配置三件事：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据源</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：指定您的数据库连接（通过环境变量）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Generator</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：表示要生成Prisma Client</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：定义您的应用程序模型</font></font></li>
+</ul>
+<hr>
+<h3 tabindex="-1" dir="auto"><a id="user-content-the-prisma-data-model" class="anchor" aria-hidden="true" tabindex="-1" href="#the-prisma-data-model"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 数据模型</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此页面上，重点是数据模型。</font><font style="vertical-align: inherit;">您可以在相应的文档页面上</font><font style="vertical-align: inherit;">了解有关</font></font><a href="https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-schema/data-sources" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据源</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-schema/generators" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成器的更多信息。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-functions-of-prisma-models" class="anchor" aria-hidden="true" tabindex="-1" href="#functions-of-prisma-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 型号的功能</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.prisma.io/docs/concepts/components/prisma-schema/data-model#defining-models" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据模型是模型</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的集合</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">模型有两个主要功能：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代表底层数据库中的一张表</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Prisma 客户端 API 中的查询提供基础</font></font></li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-getting-a-data-model" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-a-data-model"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取数据模型</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将数据模型“获取”到 Prisma 架构中有两个主要工作流程：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="https://www.prisma.io/docs/concepts/components/introspection" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过内省</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库</font><font style="vertical-align: inherit;">生成数据模型</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://www.prisma.io/docs/concepts/components/prisma-migrate" rel="nofollow"><font style="vertical-align: inherit;">手动编写数据模型并使用Prisma Migrate</font></a><font style="vertical-align: inherit;">将其映射到数据库</font></font><a href="https://www.prisma.io/docs/concepts/components/prisma-migrate" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义数据模型后，您可以</font></font><a href="https://www.prisma.io/docs/concepts/components/prisma-client/generating-prisma-client" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成 Prisma 客户端</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将公开 CRUD 和对定义的模型的更多查询。</font><font style="vertical-align: inherit;">如果您使用 TypeScript，您将获得所有查询的完整类型安全性（即使仅检索模型字段的子集）。</font></font></p>
+<hr>
+<h3 tabindex="-1" dir="auto"><a id="user-content-accessing-your-database-with-prisma-client" class="anchor" aria-hidden="true" tabindex="-1" href="#accessing-your-database-with-prisma-client"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Prisma 客户端访问您的数据库</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-generating-prisma-client" class="anchor" aria-hidden="true" tabindex="-1" href="#generating-prisma-client"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成 Prisma 客户端</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Prisma Client 的第一步是安装其 npm 包：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>npm install @prisma/client
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install @prisma/client" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，此包的安装会调用</font></font><code>prisma generate</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">读取 Prisma 架构并</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 客户端代码的命令。</font><font style="vertical-align: inherit;">该代码将位于 中</font></font><code>node_modules/.prisma/client</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，由 导出</font></font><code>node_modules/@prisma/client/index.d.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改数据模型后，您需要手动重新生成 Prisma 客户端以确保内部代码</font></font><code>node_modules/.prisma/client</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得到更新：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>npx prisma generate
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npx prisma generate" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.prisma.io/docs/concepts/components/prisma-client/generating-prisma-client" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关“生成 Prisma 客户端”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的更多信息，请参阅文档</font><font style="vertical-align: inherit;">。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-using-prisma-client-to-send-queries-to-your-database" class="anchor" aria-hidden="true" tabindex="-1" href="#using-prisma-client-to-send-queries-to-your-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Prisma 客户端向数据库发送查询</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成 Prisma 客户端后，您可以将其导入代码中并向数据库发送查询。</font><font style="vertical-align: inherit;">这就是设置代码的样子。</font></font></p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-import-and-instantiate-prisma-client" class="anchor" aria-hidden="true" tabindex="-1" href="#import-and-instantiate-prisma-client"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导入并实例化 Prisma 客户端</font></font></h5>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以按如下方式导入并实例化 Prisma Client：</font></font></p>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-smi">PrismaClient</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'@prisma/client'</span>
 
-In this schema, you configure three things:
+<span class="pl-k">const</span> <span class="pl-s1">prisma</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-smi">PrismaClient</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import { PrismaClient } from '@prisma/client'
 
-- **Data source**: Specifies your database connection (via an environment variable)
-- **Generator**: Indicates that you want to generate Prisma Client
-- **Data model**: Defines your application models
+const prisma = new PrismaClient()" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font></p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">const</span> <span class="pl-kos">{</span> PrismaClient <span class="pl-kos">}</span> <span class="pl-c1">=</span> <span class="pl-en">require</span><span class="pl-kos">(</span><span class="pl-s">'@prisma/client'</span><span class="pl-kos">)</span>
 
----
+<span class="pl-k">const</span> <span class="pl-s1">prisma</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">PrismaClient</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="const { PrismaClient } = require('@prisma/client')
 
-### The Prisma data model
-
-On this page, the focus is on the data model. You can learn more about [Data sources](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-schema/data-sources) and [Generators](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-schema/generators) on the respective docs pages.
-
-#### Functions of Prisma models
-
-The data model is a collection of [models](https://www.prisma.io/docs/concepts/components/prisma-schema/data-model#defining-models). A model has two major functions:
-
-- Represent a table in the underlying database
-- Provide the foundation for the queries in the Prisma Client API
-
-#### Getting a data model
-
-There are two major workflows for "getting" a data model into your Prisma schema:
-
-- Generate the data model from [introspecting](https://www.prisma.io/docs/concepts/components/introspection) a database
-- Manually writing the data model and mapping it to the database with [Prisma Migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate)
-
-Once the data model is defined, you can [generate Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client/generating-prisma-client) which will expose CRUD and more queries for the defined models. If you're using TypeScript, you'll get full type-safety for all queries (even when only retrieving the subsets of a model's fields).
-
----
-
-### Accessing your database with Prisma Client
-
-#### Generating Prisma Client
-
-The first step when using Prisma Client is installing its npm package:
-
-```
-npm install @prisma/client
-```
-
-Note that the installation of this package invokes the `prisma generate` command which reads your Prisma schema and _generates_ the Prisma Client code. The code will be located in `node_modules/.prisma/client`, which is exported by `node_modules/@prisma/client/index.d.ts`.
-
-After you change your data model, you'll need to manually re-generate Prisma Client to ensure the code inside `node_modules/.prisma/client` gets updated:
-
-```
-npx prisma generate
-```
-
-Refer to the documentation for more information about ["generating the Prisma client"](https://www.prisma.io/docs/concepts/components/prisma-client/generating-prisma-client).
-
-#### Using Prisma Client to send queries to your database
-
-Once the Prisma Client is generated, you can import it in your code and send queries to your database. This is what the setup code looks like.
-
-##### Import and instantiate Prisma Client
-
-You can import and instantiate Prisma Client as follows:
-
-```ts
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
-```
-
-or
-
-```js
-const { PrismaClient } = require('@prisma/client')
-
-const prisma = new PrismaClient()
-```
-
-Now you can start sending queries via the generated Prisma Client API, here are a few sample queries. Note that all Prisma Client queries return _plain old JavaScript objects_.
-
-Learn more about the available operations in the [Prisma Client docs](https://www.prisma.io/docs/concepts/components/prisma-client) or watch this [demo video](https://www.youtube.com/watch?v=LggrE5kJ75I&list=PLn2e1F9Rfr6k9PnR_figWOcSHgc_erDr5&index=4) (2 min).
-
-##### Retrieve all `User` records from the database
-
-```ts
-// Run inside `async` function
-const allUsers = await prisma.user.findMany()
-```
-
-##### Include the `posts` relation on each returned `User` object
-
-```ts
-// Run inside `async` function
+const prisma = new PrismaClient()" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您可以开始通过生成的 Prisma 客户端 API 发送查询，以下是一些示例查询。</font><font style="vertical-align: inherit;">请注意，所有 Prisma 客户端查询都会返回</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普通的旧 JavaScript 对象</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解有关</font></font><a href="https://www.prisma.io/docs/concepts/components/prisma-client" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 客户端文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中可用操作的更多信息或观看此</font></font><a href="https://www.youtube.com/watch?v=LggrE5kJ75I&amp;list=PLn2e1F9Rfr6k9PnR_figWOcSHgc_erDr5&amp;index=4" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（2 分钟）。</font></font></p>
+<h5 tabindex="-1" dir="auto"><a id="user-content-retrieve-all-user-records-from-the-database" class="anchor" aria-hidden="true" tabindex="-1" href="#retrieve-all-user-records-from-the-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"></font><code>User</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从数据库中</font><font style="vertical-align: inherit;">检索所有记录</font></font></h5>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Run inside `async` function</span>
+<span class="pl-k">const</span> <span class="pl-s1">allUsers</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">prisma</span><span class="pl-kos">.</span><span class="pl-c1">user</span><span class="pl-kos">.</span><span class="pl-en">findMany</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Run inside `async` function
+const allUsers = await prisma.user.findMany()" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h5 tabindex="-1" dir="auto"><a id="user-content-include-the-posts-relation-on-each-returned-user-object" class="anchor" aria-hidden="true" tabindex="-1" href="#include-the-posts-relation-on-each-returned-user-object"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含</font></font><code>posts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个返回</font></font><code>User</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对象的关系</font></font></h5>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Run inside `async` function</span>
+<span class="pl-k">const</span> <span class="pl-s1">allUsers</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">prisma</span><span class="pl-kos">.</span><span class="pl-c1">user</span><span class="pl-kos">.</span><span class="pl-en">findMany</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+  <span class="pl-c1">include</span>: <span class="pl-kos">{</span> <span class="pl-c1">posts</span>: <span class="pl-c1">true</span> <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Run inside `async` function
 const allUsers = await prisma.user.findMany({
   include: { posts: true },
-})
-```
-
-##### Filter all `Post` records that contain `"prisma"`
-
-```ts
-// Run inside `async` function
+})" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h5 tabindex="-1" dir="auto"><a id="user-content-filter-all-post-records-that-contain-prisma" class="anchor" aria-hidden="true" tabindex="-1" href="#filter-all-post-records-that-contain-prisma"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤所有</font></font><code>Post</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含以下内容的记录</font></font><code>"prisma"</code></h5>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Run inside `async` function</span>
+<span class="pl-k">const</span> <span class="pl-s1">filteredPosts</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">prisma</span><span class="pl-kos">.</span><span class="pl-c1">post</span><span class="pl-kos">.</span><span class="pl-en">findMany</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+  <span class="pl-c1">where</span>: <span class="pl-kos">{</span>
+    <span class="pl-c1">OR</span>: <span class="pl-kos">[</span><span class="pl-kos">{</span> <span class="pl-c1">title</span>: <span class="pl-kos">{</span> <span class="pl-c1">contains</span>: <span class="pl-s">'prisma'</span> <span class="pl-kos">}</span> <span class="pl-kos">}</span><span class="pl-kos">,</span> <span class="pl-kos">{</span> <span class="pl-c1">content</span>: <span class="pl-kos">{</span> <span class="pl-c1">contains</span>: <span class="pl-s">'prisma'</span> <span class="pl-kos">}</span> <span class="pl-kos">}</span><span class="pl-kos">]</span><span class="pl-kos">,</span>
+  <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Run inside `async` function
 const filteredPosts = await prisma.post.findMany({
   where: {
     OR: [{ title: { contains: 'prisma' } }, { content: { contains: 'prisma' } }],
   },
-})
-```
-
-##### Create a new `User` and a new `Post` record in the same query
-
-```ts
-// Run inside `async` function
+})" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h5 tabindex="-1" dir="auto"><a id="user-content-create-a-new-user-and-a-new-post-record-in-the-same-query" class="anchor" aria-hidden="true" tabindex="-1" href="#create-a-new-user-and-a-new-post-record-in-the-same-query"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在同一查询中</font><font style="vertical-align: inherit;">创建一条新</font></font><code>User</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录</font></font><code>Post</code><font style="vertical-align: inherit;"></font></h5>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Run inside `async` function</span>
+<span class="pl-k">const</span> <span class="pl-s1">user</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">prisma</span><span class="pl-kos">.</span><span class="pl-c1">user</span><span class="pl-kos">.</span><span class="pl-en">create</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+  <span class="pl-c1">data</span>: <span class="pl-kos">{</span>
+    <span class="pl-c1">name</span>: <span class="pl-s">'Alice'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">email</span>: <span class="pl-s">'alice@prisma.io'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">posts</span>: <span class="pl-kos">{</span>
+      <span class="pl-c1">create</span>: <span class="pl-kos">{</span> <span class="pl-c1">title</span>: <span class="pl-s">'Join us for Prisma Day 2021'</span> <span class="pl-kos">}</span><span class="pl-kos">,</span>
+    <span class="pl-kos">}</span><span class="pl-kos">,</span>
+  <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Run inside `async` function
 const user = await prisma.user.create({
   data: {
     name: 'Alice',
@@ -202,60 +266,58 @@ const user = await prisma.user.create({
       create: { title: 'Join us for Prisma Day 2021' },
     },
   },
-})
-```
-
-##### Update an existing `Post` record
-
-```ts
-// Run inside `async` function
+})" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h5 tabindex="-1" dir="auto"><a id="user-content-update-an-existing-post-record" class="anchor" aria-hidden="true" tabindex="-1" href="#update-an-existing-post-record"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新现有</font></font><code>Post</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录</font></font></h5>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">// Run inside `async` function</span>
+<span class="pl-k">const</span> <span class="pl-s1">post</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">prisma</span><span class="pl-kos">.</span><span class="pl-c1">post</span><span class="pl-kos">.</span><span class="pl-en">update</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+  <span class="pl-c1">where</span>: <span class="pl-kos">{</span> <span class="pl-c1">id</span>: <span class="pl-c1">42</span> <span class="pl-kos">}</span><span class="pl-kos">,</span>
+  <span class="pl-c1">data</span>: <span class="pl-kos">{</span> <span class="pl-c1">published</span>: <span class="pl-c1">true</span> <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="// Run inside `async` function
 const post = await prisma.post.update({
   where: { id: 42 },
   data: { published: true },
-})
-```
-
-#### Usage with TypeScript
-
-Note that when using TypeScript, the result of this query will be _statically typed_ so that you can't accidentally access a property that doesn't exist (and any typos are caught at compile-time). Learn more about leveraging Prisma Client's generated types on the [Advanced usage of generated types](https://www.prisma.io/docs/concepts/components/prisma-client/advanced-usage-of-generated-types) page in the docs.
-
-## Community
-
-Prisma has a large and supportive [community](https://www.prisma.io/community) of enthusiastic application developers. You can join us on [Slack](https://slack.prisma.io), [Discord](https://pris.ly/discord), and here on [GitHub](https://github.com/prisma/prisma/discussions).
-
-## Security
-
-If you have a security issue to report, please contact us at [security@prisma.io](mailto:security@prisma.io?subject=[GitHub]%20Prisma%202%20Security%20Report%20).
-
-## Support
-
-### Ask a question about Prisma
-
-You can ask questions and initiate [discussions](https://github.com/prisma/prisma/discussions/) about Prisma-related topics in the `prisma` repository on GitHub.
-
-👉 [**Ask a question**](https://github.com/prisma/prisma/discussions/new)
-
-### Create a bug report for Prisma
-
-If you see an error message or run into an issue, please make sure to create a bug report! You can find [best practices for creating bug reports](https://www.prisma.io/docs/guides/other/troubleshooting-orm/creating-bug-reports) (like including additional debugging output) in the docs.
-
-👉 [**Create bug report**](https://pris.ly/prisma-prisma-bug-report)
-
-### Submit a feature request
-
-If Prisma currently doesn't have a certain feature, be sure to check out the [roadmap](https://www.prisma.io/docs/more/roadmap) to see if this is already planned for the future.
-
-If the feature on the roadmap is linked to a GitHub issue, please make sure to leave a 👍 reaction on the issue and ideally a comment with your thoughts about the feature!
-
-👉 [**Submit feature request**](https://github.com/prisma/prisma/issues/new?assignees=&labels=&template=feature_request.md&title=)
-
-## Contributing
-
-Refer to our [contribution guidelines](https://github.com/prisma/prisma/blob/main/CONTRIBUTING.md) and [Code of Conduct for contributors](https://github.com/prisma/prisma/blob/main/CODE_OF_CONDUCT.md).
-
-## Tests Status
-
-- Prisma Tests Status:  
-  [![Prisma Tests Status](https://github.com/prisma/prisma/workflows/CI/badge.svg)](https://github.com/prisma/prisma/actions/workflows/test.yml?query=branch%3Amain)
-- Ecosystem Tests Status:  
-  [![Ecosystem Tests Status](https://github.com/prisma/ecosystem-tests/workflows/test/badge.svg)](https://github.com/prisma/ecosystem-tests/actions/workflows/test.yaml?query=branch%3Adev)
+})" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h4 tabindex="-1" dir="auto"><a id="user-content-usage-with-typescript" class="anchor" aria-hidden="true" tabindex="-1" href="#usage-with-typescript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 TypeScript 一起使用</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，使用 TypeScript 时，此查询的结果将是</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">静态类型的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这样您就不会意外访问不存在的属性（并且在编译时捕获任何拼写错误）。</font><font style="vertical-align: inherit;">在文档中生成类型</font></font><a href="https://www.prisma.io/docs/concepts/components/prisma-client/advanced-usage-of-generated-types" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的高级用法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面上了解有关利用 Prisma Client 生成类型的更多信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-community" class="anchor" aria-hidden="true" tabindex="-1" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 拥有一个由热情的应用程序开发人员组成的庞大且支持性的</font></font><a href="https://www.prisma.io/community" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">您可以在</font></font><a href="https://slack.prisma.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://pris.ly/discord" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/prisma/prisma/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上加入我们。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-security" class="anchor" aria-hidden="true" tabindex="-1" href="#security"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有安全问题需要报告，请通过</font></font><a href="mailto:security@prisma.io?subject=%5BGitHub%5D%20Prisma%202%20Security%20Report%20"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">security@prisma.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-support" class="anchor" aria-hidden="true" tabindex="-1" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-ask-a-question-about-prisma" class="anchor" aria-hidden="true" tabindex="-1" href="#ask-a-question-about-prisma"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">询问关于 Prisma 的问题</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在 GitHub 上的存储库中提出</font><font style="vertical-align: inherit;">有关 Prisma 相关主题的问题并发起</font></font><a href="https://github.com/prisma/prisma/discussions/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论</font></font></a><font style="vertical-align: inherit;"></font><code>prisma</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉</font></font><a href="https://github.com/prisma/prisma/discussions/new"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问一个问题</font></font></strong></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-create-a-bug-report-for-prisma" class="anchor" aria-hidden="true" tabindex="-1" href="#create-a-bug-report-for-prisma"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Prisma 创建错误报告</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您看到错误消息或遇到问题，请务必创建错误报告！</font><font style="vertical-align: inherit;">您可以</font><font style="vertical-align: inherit;">在文档中找到</font></font><a href="https://www.prisma.io/docs/guides/other/troubleshooting-orm/creating-bug-reports" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建错误报告（例如包括附加调试输出）的最佳实践。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉</font></font><a href="https://pris.ly/prisma-prisma-bug-report" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建错误报告</font></font></strong></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-submit-a-feature-request" class="anchor" aria-hidden="true" tabindex="-1" href="#submit-a-feature-request"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交功能请求</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果 Prisma 目前没有某个功能，请务必查看</font></font><a href="https://www.prisma.io/docs/more/roadmap" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，看看未来是否已计划好。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果路线图上的功能链接到 GitHub 问题，请务必留下 👍 对此问题的反应，最好是发表评论，表达您对该功能的想法！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉</font></font><a href="https://github.com/prisma/prisma/issues/new?assignees=&amp;labels=&amp;template=feature_request.md&amp;title="><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交功能请求</font></font></strong></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅我们的</font></font><a href="https://github.com/prisma/prisma/blob/main/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/prisma/prisma/blob/main/CODE_OF_CONDUCT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-tests-status" class="anchor" aria-hidden="true" tabindex="-1" href="#tests-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试状态</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma 测试状态：</font></font><br>
+<a href="https://github.com/prisma/prisma/actions/workflows/test.yml?query=branch%3Amain"><img src="https://github.com/prisma/prisma/workflows/CI/badge.svg" alt="Prisma 测试状态" style="max-width: 100%;"></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生态系统测试状态：</font></font><br>
+<a href="https://github.com/prisma/ecosystem-tests/actions/workflows/test.yaml?query=branch%3Adev"><img src="https://github.com/prisma/ecosystem-tests/workflows/test/badge.svg" alt="生态系统测试状态" style="max-width: 100%;"></a></li>
+</ul>
+</article></div>
